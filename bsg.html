@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>html form</title>
+        <link rel="stylesheet" href=bsg.css>
+    </head>
+    <body bgcolor="blue">
+        <form>
+        <h1><mark>REGISTRATION FORM</mark></h1>
+        <br><br>
+        <label for="First name">First name:</label>
+        <input type="text" id="first name" name="first name" placeholder="Enter your name" required>
+        <p><strong>NOTE:</strong>the default maximum character length is 10</p>
+        <label for="last name">Last name:</label>
+        <input type="text" id="Last name" name="last name" placeholder="Enter your last name" required>
+        <p><strong>NOTE:</strong>the default maximum character length is 10</p>
+        <lable for="email">Email:</lable>
+        <input type="email" id="email" name="email" placeholder="enter your email">
+        <br><br>
+        <label for="dob">Enter your DOB year:</label>
+        <input type="year" name="dob">
+        <br><br>
+        <label> Enter your age:</label>
+        <input type="number" name="number" min="18" max="50">
+        <br><br>
+        Enter your address:
+        <br>
+        <textarea rows="4" cols="20"></textarea>
+        <br><br>
+        <label for="tel">Enter your phone no:</label>
+        <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+        <p>Select your gender:</p>
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender" value="Male">
+        <br>
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <br><br>
+        <label for="country">Select your country</label>
+        <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="pakisthan">Pakisthan</option>
+        <option value="nepal">Nepal</option>
+        </select>
+        <br><br>
+        <label for="image">upload your pic:</label>
+        <input type="image" alt="submit" src="login.png" width="100px">
+        <br><br>
+        <label for="file">upload your marksheet:</label>
+        <input type="file" name="new file">
+        <br>
+        <p></p>Select your hobby</p>
+        <label for="singing">singing</label>
+        <input type="checkbox" id="singing" name="singing" value="singing">
+        <br>
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" id="dancing" name="dancing" value="dancing">
+        <br>
+        <label for="other">Other</label>
+        <input type="checkbox" id="other" name="other" value="other">
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+    </body>
+</html>
